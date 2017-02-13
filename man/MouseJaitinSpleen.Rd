@@ -4,13 +4,13 @@
 \alias{Mouse spleen}
 \title{Jaitin et al., 2014 Mouse spleen cells}
 \description{
-The preprocessing steps in the original paper are decribed here:
+The preprocessing steps in the original paper are described here:
 http://compgenomics.weizmann.ac.il/tanay/?page_id=519
 }
 \section{format}{
   Data is an \code{\link{ExpressionSet}} object. The
-  \code{exprs} slot contains the gene read counts in a gene 
-  by sample matrix. \code{phenoData} slot contains sample information 
+  \code{exprs} slot contains the gene read counts in a gene
+  by sample matrix. \code{phenoData} slot contains sample information
   as described below. \code{featureData} slot contains row information
   which are usually ensemebl gene ID or gene symbols.
 }
@@ -28,4 +28,3 @@ Diego Adhemar Jaitin, Ephraim Kenigsberg, Hadas Keren-Shaulß, Naama Elefant, Fr
   \code{\link{ExpressionSet}} for the class definition
 }
 \keyword{datasets}
-
